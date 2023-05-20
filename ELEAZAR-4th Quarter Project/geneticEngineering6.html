@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html> 
+	
+	<head> 
+		<link rel="stylesheet" type="text/css" href="mystyle6.css">
+	</head> 
+	
+	<body>
+		<h1 class="title">GENETIC ENGINEERING</h1> 
+		<br>
+		
+		<section class="SS"> 
+			<h2 id="titleSS">END OF QUEST</h2>
+				<fieldset>
+					<legend>SUMMARY ヾ(☆▽☆)</legend>
+						<video poster="thumbnail.jpg" controls autoplay>
+							<source src= "geneticEngineering.mp4" type="video/mp4">
+							Your browser does not support the video element. Kindly update it to the latest version.
+						</video> 
+					<p>LINK: https://www.youtube.com/watch?v=DIM38NlkWEo</p>
+					<br>
+				</fieldset> 
+		</section>
+			
+		<aside class="back"> 
+			<form onsubmit="return backFunction();">
+				<fieldset>
+					<label for = "ready">Ready to go back?</label>
+					<br><br>
+					<label for = "ok">YES</label>
+					<input type ="radio" name="choices" value="ok" id="ok">
+					<br><br>
+					<label for = "no">NO</label>
+					<input type ="radio" name="choices" value="no" id="no">
+					<br><br>
+					<input type="submit"></input>
+				</fieldset>
+			</form>
+		</aside>
+		
+	</body> 
+	
+	<script> 
+		
+		function backFunction(){
+				
+				if(document.getElementById("ok").checked == true) {
+					alert("Adios, voyager! See you again someday!! ✌(ツ)"); 
+					window.open("geneticEngineering7.html");
+				}else {
+					alert("◑.◑"); 
+				}
+			}
+		
+	</script> 
+	
+</html>

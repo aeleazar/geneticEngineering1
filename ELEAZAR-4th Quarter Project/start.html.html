@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html> 
+
+	<head> 
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head> 
+	
+	<body> 
+	</body> 
+	
+	<form onsubmit="return readyFunction();">
+	
+	<fieldset>
+		<legend>SIGN IN</legend> 
+		<br> 
+		<label for = "name">NAME: </label>
+		<input type ="text" id ="name" name ="name">
+		<br><br>
+		<br><br>
+		<label for = "question">ARE YOU READY TO EXPLORE TO THE WORLD OF GENETIC ENGINEERING?</label><br/>
+		<br><br>
+		<label for = "ready">YES!! ╰(▔∀▔)╯</label>
+		<input type ="radio" name="choices" value="ready" id="ready">
+		<br><br>
+		<label for = "nope">NO ¯\_(ツ)_/¯</label>
+		<input type ="radio" name="choices" value="nope" id="nope">
+		<br><br>
+	</fieldset> 
+	<br> 
+	<input type="submit" style="margin-left: 1200px;"></input>
+	
+	</form>
+	
+	<script> 
+	
+			function readyFunction(){
+			
+				var n = document.getElementById("name").value; 
+				alert(n + ", HELLO!! ´❛ᴥ❛`ʔฅ "); 
+				
+				if(document.getElementById("ready").checked == true) {
+					alert("Buckle up, " + n + ". You are about to be transported.");
+					window.open("geneticEngineering.html"); 
+				}else if(document.getElementById("nope").checked == true) {
+					alert("You aren't ready... Please come back when you're ready 乁(ツ゚)ㄏ"); 
+				}else {
+					alert("Please click on either YES or NO for your fate to be decided :)"); 
+				}
+			}
+
+		</script>
+	
+	</script> 
+
+</html> 

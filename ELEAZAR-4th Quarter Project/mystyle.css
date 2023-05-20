@@ -1,0 +1,40 @@
+body {
+	background-image: url(background.gif);
+	background-position: center;
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+.title {
+	background-color: #F5FEFD;
+	font-family: 'Trebuchet MS', sans-serif;
+	text-align: center; 
+	font-size: 80px;
+	border: solid #82EEFD;
+}
+.definition {
+	display: inline-block; 
+	background-color: #F5FEFD;
+	font-family: 'Trebuchet MS', sans-serif;
+	margin-left: 60px; 
+	width: 60%;
+	font-size: 25px;
+	border: solid #82EEFD;
+}
+#titleDefinition {
+	text-align: center;
+	font-size: 30px;
+	color: #0583D2;
+}
+.quiz {
+	display: inline-block; 
+	margin-right: 60px; 
+	width: 30%;
+	float: right;
+	background-color: #F5FEFD;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 25px;
+	border: solid #82EEFD;
+	text-align: center;
+}

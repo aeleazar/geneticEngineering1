@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html> 
+	
+	<head> 
+		<link rel="stylesheet" type="text/css" href="mystyle4.css">
+	</head> 
+	
+	<body>
+		<br><br>
+		<h1 class="title">GENETIC ENGINEERING</h1> 
+		<br><br>
+		
+		<section class="app"> 
+			<h2 id="titleAP">APPLICATIONS</h2>
+			<h3 id="intro">Genetic engineering advanced the understanding of many theoretical and practical aspects of gene function and organization.</h3>
+			
+			<p>What is Genetic Engineering used for? ♪～(￣、￣ )</p>
+			<h4>Here are a few of the many uses of Genetic Engineering: </h4>
+			<ul>
+				<li>Bacteria have been created that are capable of synthesizing human insulin, human growth hormone, alpha interferon, a hepatitis B vaccine, and other medically useful substances.</li>
+				<li>Plants can be genetically adjusted to fix nitrogen.</li> 
+				<li>Genetic diseases can be corrected by replacing dysfunctional genes with normally functioning genes through the advancement of Genetic Engineering.</li>
+				<li>Nutritional values of plants can be improved through Genetic Engineering.</li>
+			</ul> 
+			
+		</section>
+		
+		<aside class="quiz"> 
+			<form onsubmit="return quizFunction();">
+	
+			<fieldset>
+				<legend>NOT A POP QUIZ ヾ(☆▽☆), BUT...</legend>
+				<br>
+				<label for = "">To procede, please state a use of Genetic Engineering that you can think of. (o_O) ?</label><br/>
+				<br><br>
+				<label for = "use">USE: </label>
+				<textarea id ="tArea" name="use"></textarea>
+				<br><br>
+				<label for = "ready">Ready to proceed??</label>
+				<br><br>
+				<label for = "ok">YESS</label>
+				<input type ="radio" name="choices" value="ok" id="ok">
+				<br><br>
+				<label for = "no">NOO</label>
+				<input type ="radio" name="choices" value="no" id="no">
+				<br><br>
+				<input type="submit"></input>
+			</fieldset> 
+			</form>
+		</aside> 
+		
+	</body> 
+	
+	<script> 
+		
+		function quizFunction(){
+				
+				if(document.getElementById("ok").checked == true) {
+					alert("Bon Voyage! You will procede with your quest in just a second."); 
+					window.open("geneticEngineering5.html");
+				}else {
+					alert("◑.◑"); 
+				}
+			}
+		
+	</script> 
+	
+</html>

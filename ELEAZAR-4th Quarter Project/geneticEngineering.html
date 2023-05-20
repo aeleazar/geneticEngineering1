@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html> 
+	
+	<head> 
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+	</head> 
+	
+	<body>
+		<br><br>
+		<h1 class="title">WELCOME TO PLANET, GENETIC ENGINEERING</h1> 
+		<br><br><br><br>
+		
+		<section class="definition"> 
+			<h2 id="titleDefinition">DEFINITION</h2>
+			
+			<p>Genetic engineering, also known as genetic modification, is the technique of removing, modifying, or adding genes to a DNA molecule to change the information it contains. </p> 
+			<p>Genetic engineering involves changing a single base pair (A-T or C-G), deleting a region of DNA, or adding a new segment of DNA.</p>
+			<p>By changing the information of the DNA molecule, genetic engineering enables the creation of new substances or new functions for it changes the type or amount of proteins an organism is capable of producing. </p>
+			<p>For example, genetic engineering involves adding a gene from one species to an organism from a different species to produce a desired trait. </p>
+			<p>Genetic engineering is used in research and industry. Genetic engineering has been applied to the production of cancer therapies, brewing yeasts, genetically modified plants and livestock, and more.</p> 
+			<br>
+		</section>
+		
+		<aside class="quiz"> 
+			<form onsubmit="return quizFunction();">
+	
+			<fieldset>
+				<legend>POP QUIZ!!(╥_╥)</legend>
+				<br>
+				<label for = "">To procede, please verify the statement below.</label><br/>
+				<br><br>
+				<label for = "">Genetic Engineering creates genes from scratch.</label><br/>
+				<br><br>
+				<label for = "yes">YES!! ╰(▔∀▔)╯</label>
+				<input type ="radio" name="choices" value="yes" id="yes">
+				<br><br>
+				<label for = "nope">NO ＼(｀0´)／</label>
+				<input type ="radio" name="choices" value="nope" id="nope">
+				<br><br>
+				<label for = "idk">IDK ¯\_(ツ)_/¯</label>
+				<input type ="radio" name="choices" value="idk" id="idk">
+				<br><br>
+				<input type="submit"></input>
+			</fieldset> 
+			</form>
+		</aside>  
+		
+	</body> 
+	
+	<script> 
+		
+		function quizFunction(){
+				
+				if(document.getElementById("yes").checked == true) {
+					alert("Genetic engineering involves removing, modifying, or adding genes to a DNA molecule. However, it doesn't involve creating a new gene from scratch. Please try again."); 
+				}else if(document.getElementById("nope").checked == true) {
+					alert("Bon Voyage! You will procede with your quest in just a second."); 
+					window.open("geneticEngineering2.html");
+				}else {
+					alert("Too bad. Please try again."); 
+				}
+			}
+		
+	</script> 
+	
+</html>

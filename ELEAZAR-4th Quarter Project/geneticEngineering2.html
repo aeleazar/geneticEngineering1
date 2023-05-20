@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html> 
+	
+	<head> 
+		<link rel="stylesheet" type="text/css" href="mystyle2.css">
+	</head> 
+	
+	<body>
+		<h1 class="title">GENETIC ENGINEERING</h1> 
+		
+		<section class="history"> 
+			<h2 id="titleHistory">HISTORY</h2>
+			
+			<p>The term genetic engineering was initially referred to various techniques used for the modification or manipulation of organisms through the processes of heredity and reproduction. </p>
+			<p>Because of this, the term embraced both artificial selection and all the interventions of biomedical techniques. Among the artificial insemination are vitro fertilization (e.g., “test-tube” babies), cloning, and gene manipulation.</p> 
+			<p>During the latter part of the 20th century, the term came to refer the different methods of recombinant DNA technology (or gene cloning), wherein DNA molecules from two or more sources are combined either within cells or in vitro, and are then inserted into host organisms in which they are able to propagate.</p>
+			<p>The possibility for recombinant DNA technology emerged with the discovery of restriction enzymes in 1968 by the Swiss microbiologist, Werner Arber.</p>
+			<p>The next year Hamilton O. Smith, an American biologist, purified so-called type II restriction enzymes, which were found essential to genetic engineering for their ability to cleave a specific site within the DNA.</p>
+			<p>Using Smith's work as reference, Daniel Nathans helped advance the technique of DNA recombination in 1970–1971 and demonstrated that type II enzymes could be useful in genetic studies.</p>
+			<p>Genetic engineering based on recombination was pioneered in 1973 by American biochemists Stanley N. Cohen and Herbert W. Boyer, who were also among the first to cut DNA into fragments, rejoin different fragments, and insert the new genes into E. coli bacteria.</p>
+		</section>
+		
+		<aside class="quiz"> 
+			<form onsubmit="return quizFunction();">
+	
+			<fieldset>
+				<legend>POP QUIZ!!(╥_╥)</legend>
+				<br>
+				<label for = "">To procede, please answer the question below.</label><br/>
+				<br><br>
+				<label for = "">Who among the scientists mentioned below pionered Genetic Engineering based on recombination?</label><br/>
+				<br><br>
+				<label for = "stan">Stanley N. Cohen</label>
+				<input type ="radio" name="choices" value="stan" id="stan">
+				<br><br>
+				<label for = "smith">Hamilton O. Smith</label>
+				<input type ="radio" name="choices" value="smith" id="smith">
+				<br><br>
+				<label for = "w.a.">Werner Arber</label>
+				<input type ="radio" name="choices" value="w.a." id="w.a.">
+				<br><br>
+				<input type="submit"></input>
+			</fieldset> 
+			</form>
+		</aside>  
+		
+	</body> 
+	
+	<script> 
+		
+		function quizFunction(){
+				
+				if(document.getElementById("stan").checked == true) {
+					alert("Bon Voyage! You will procede with your quest in just a second."); 
+					window.open("geneticEngineering3.html");
+				}else {
+					alert("Too bad. Please try again."); 
+				}
+			}
+		
+	</script> 
+	
+</html>

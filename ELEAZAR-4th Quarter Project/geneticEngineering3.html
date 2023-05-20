@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html> 
+	
+	<head> 
+		<link rel="stylesheet" type="text/css" href="mystyle3.css">
+	</head> 
+	
+	<body>
+		<h1 class="title">GENETIC ENGINEERING</h1> 
+		
+		<section class="pt"> 
+			<h2 id="titlePT">PROCESSES and TECHNIQUES</h2>
+			<h3 id="intro">To understand the process of genetic engineering, take producing insulin as an example.</h3>
+			
+			<p>Genetic engineering was used to produce a type of insulin from yeast and bacteria like E. coli. This genetically modified insulin, ‘Humulin’ was then licensed for human use in 1982.</p>
+			<ol>
+				<li>A plasmid, a small piece of circular DNA, is extracted from the bacteria or yeast cell.</li>
+				<li>A small section is then cut out of the circular plasmid by restriction enzymes known as ‘molecular scissors’.</li>
+				<li>The gene for human insulin is inserted into the gap in the plasmid. The plasmid is now genetically modified.</li> 
+				<li>The genetically modified plasmid is introduced into a new bacteria or yeast cell.</li>
+				<li>This cell then divides rapidly and starts making insulin.</li>
+				<li>To create large amounts of the cells, the genetically modified bacteria or yeast are grown in large fermentation vessels that contain all the nutrients they need. The more the cells divide, the more insulin is produced.</li>
+				<li>Once fermentation is complete, the mixture is filtered to release the insulin.</li>
+				<li>The insulin is then purified and packaged into bottles and insulin pens for distribution to patients with diabetes.</li>
+			</ol> 
+			
+		</section>
+		
+		<aside class="quiz"> 
+			<form onsubmit="return quizFunction();">
+	
+			<fieldset>
+				<legend>POP QUIZ!!(╥_╥)</legend>
+				<br>
+				<label for = "">To procede, please answer the question below.</label><br/>
+				<br><br>
+				<label for = "">Which comes first?</label><br/>
+				<br><br>
+				<label for = "3">Inserting the gene for human insulin into the gap within the plasmid</label>
+				<input type ="radio" name="choices" value="3" id="3">
+				<br><br>
+				<label for = "1">Extracting plasmid from the bacteria or yeast cell</label>
+				<input type ="radio" name="choices" value="1" id="1">
+				<br><br>
+				<label for = "8">Purifying the insulin for it to be distributed to patients with diabetes</label>
+				<input type ="radio" name="choices" value="8" id="8">
+				<br><br>
+				<input type="submit"></input>
+			</fieldset> 
+			</form>
+		</aside>  
+		
+	</body> 
+	
+	<script> 
+		
+		function quizFunction(){
+				
+				if(document.getElementById("1").checked == true) {
+					alert("Bon Voyage! You will procede with your quest in just a second."); 
+					window.open("geneticEngineering4.html");
+				}else {
+					alert("Too bad. Please try again."); 
+				}
+			}
+		
+	</script> 
+	
+</html>

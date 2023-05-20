@@ -1,0 +1,17 @@
+body {
+	background-image: url(background4.gif);
+	background-position: center;
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat; 
+	}		
+
+fieldset {
+	margin-top: 200px;
+	margin-left: 650px; 
+	margin-right: 650px; 
+	text-align: center; 
+	background-color: white;
+		}
+		
